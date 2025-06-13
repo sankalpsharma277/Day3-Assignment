@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Tech Fest Registration</h2>
+<form action="/submit" method="POST">
+  <label>Name: <input type="text" name="name" required></label><br><br>
+
+  <label>Gender:</label>
+  <input type="radio" name="gender" value="Male"> Male
+  <input type="radio" name="gender" value="Female"> Female<br><br>
+
+  <label>Email: <input type="email" name="email" required></label><br><br>
+
+  <label>Department:
+    <select name="department">
+      <option>CSE</option>
+      <option>ECE</option>
+      <option>Mechanical</option>
+      <option>Civil</option>
+    </select>
+  </label><br><br>
+
+  <label>Events:</label><br>
+  <input type="checkbox" name="events" value="Coding"> Coding<br>
+  <input type="checkbox" name="events" value="Design"> Design<br>
+  <input type="checkbox" name="events" value="Robotics"> Robotics<br><br>
+
+  
+  
+
+  <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
